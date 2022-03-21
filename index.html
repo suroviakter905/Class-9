@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9</title>
+</head>
+<body>
+
+    <h1>Simple Form Sample</h1>
+    
+    <!-- form -->
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- image -->
+            <div>
+                <label for="image">Your image:</label>
+                <input type="file" required>
+            </div>
+            <br>
+
+            <!-- full name -->
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <br>
+
+            <!-- fathers name -->
+            <div>
+                <label for="father'sName">Father's Name:</label>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+             <br>
+
+            <!-- mothers name -->
+            <div>
+                <label for="mother'sName">Mother's Name:</label>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <br>
+
+            <!-- radio button -->
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" required> Male
+                <input type="radio" name="gender" required> Female
+                <input type="radio" name="gender" required> Custom
+                
+            </div>
+            <br>
+
+            <!-- maritial status -->
+            <div>
+                <label for="maritialstatus:">Maritial Status:</label>
+                <select name="" id="" >
+                    <option value="">Select One</option>
+                    <option value="Married">Married</option>
+                    <option value="Unmarried">Unmarried</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+
+                <label for="spousename">Spouse Name:</label>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <br>
+
+            <!-- birthdate -->
+            <div>
+                <label for="date of birth">Date of Birth</label>
+                <input type="date" required>
+
+                <!-- NID -->
+                <label for="nid no">NID No:</label>
+                <input type="text" pattern="0-9" placeholder="Enter Your NID No" required>
+            </div>
+            <br>
+
+            <!-- passport and contact -->
+            <div>
+                <label for="passport number">Passport No:</label>
+                <input type="text" pattern="0-9" placeholder="Enter Your Passport No">
+
+                <label for="contact number">Contact No:</label>
+                <input type="text" pattern="0-9" placeholder="Enter Your Contact No" required>
+            </div>
+            <br>
+
+            <!-- address -->
+            <div>
+                <label for="present address">Present Address:</label>
+                <textarea name="" placeholder="Please your address here" requirede></textarea>
+
+                <label for="permanent address">Permanent Address:</label>
+                <textarea name="" placeholder="Please your address here" required></textarea>
+            </div>
+            <br>
+            <hr>
+
+            <!-- checkbox -->
+            <div>
+                <label for="academic qualification">Academic Qualification:</label>
+                <br>
+                <input type="checkbox">PSC
+                <input type="checkbox">JSC
+                <input type="checkbox">SSC/Dakhil/Vocational
+                <input type="checkbox">HSC/Dakhil/Vocational
+                <input type="checkbox">HSC/Dakhil/Vocational
+                <input type="checkbox">HSC/Dakhil/Vocational
+                <input type="checkbox">Diploma
+                <input type="checkbox">Bachelor(General)
+                <input type="checkbox">Bachelor(Engineering)
+                <input type="checkbox">Kamil
+                <input type="checkbox">BA
+                <input type="checkbox">BBA
+                <input type="checkbox">Bed
+                <br>
+                <input type="checkbox">Masters
+                <input type="checkbox">Others
+                
+            </div>
+            <hr>
+
+            <!-- color -->
+            <div>
+                <label for="color">Your Favourite Color:</label>
+                <input type="color">
+            </div>
+            <br>
+            
+            <!-- food -->
+            <div>
+                <label for="">Your Favourite Food:</label>
+                <input type="text">
+            </div>
+            <br>
+
+            <!-- hobby -->
+            <div>
+                <label for="">Your Hobby:</label>
+                <input type="text">
+            </div>
+            <br>
+
+            <!-- range -->
+            <div>
+                <label for="">Basic Computer Literacy:</label>
+                <input type="range" value="90%">90%
+            </div>
+            <br>
+
+            <!-- textarea -->
+            <div>
+                <label for="">Your Comment:</label>
+                <br>
+                <textarea name="message" placeholder="Your comment here...."></textarea>
+            </div>
+            <hr>
+
+            <!-- email -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Your Email" required>
+            </div>
+            <br>
+
+            <!-- password -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter Your Password" required>
+            </div>
+            <br>
+            <input type="Submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
